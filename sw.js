@@ -1,9 +1,10 @@
-const CACHE_NAME = 'controle-cofres-v4.2';
+const CACHE_NAME = 'controle-cofres-v4.3';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './icon.svg'
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
